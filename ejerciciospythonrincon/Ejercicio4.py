@@ -1,0 +1,11 @@
+nombre_Vendedor = input("ingrese el nombre del vendedor:" ) # "Ingresamos una variable con el nombre del vendedor"
+sueldo = float(input("ingrese el sueldo")) # "Ingresamos una variable que pida el sueldo"
+a = float(input("ingrese la venta 1: ")) # "Ingresamos la variable a que seria el valor de la venta 1"
+b = float(input("ingrese la venta 2: ")) # "Ingresamos la variable b que seria el valor de la venta 2"
+c = float(input("ingrese la venta 3: ")) # "Ingresamos la variable c que seria el valor de la venta 3"
+comision = (a+b+c) * .10 # "Ingresamos la comisión y hacemos la suma de las 3 variables para despues multiplicarlo y sacarle el 10%"
+
+print("El nombre del vendedor es: " , nombre_Vendedor) # "Imprimimos el nombre del vendedor para ingresarlo a la hora de depurarlo"
+print("El sueldo del vendedor es: ",sueldo) # "Imprimimos el sueldo del vendedor para ingresarlo a la hora de depurarlo"
+print("La comision del mes por las 3 ventas es: ", comision) # "Imprimimos la comisión del vendedor para ingresarlo a la hora de depurarlo"
+print("El sueldo total con la comision es: ", sueldo+comision ) # "Imprimimos el sueldo total del vendedor para ingresarlo a la hora de depurarlo"
